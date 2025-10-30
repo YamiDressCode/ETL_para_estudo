@@ -32,9 +32,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # =============================================================================
 # CONFIGURAÇÕES GLOBAIS 
 # =============================================================================
-UNIPIX_USUARIO = "marlon.carvalho@mds.gov.br"
-UNIPIX_SENHA = "Mds@2025"
-DOWNLOAD_FOLDER = r"C:\Users\marlon.carvalho\Desktop\aprendizado\data\input"
+UNIPIX_USUARIO = "------@-------"
+UNIPIX_SENHA = "-----"
+DOWNLOAD_FOLDER = r"C:\Users\mxxxxx\Desktop\aprendizado\data\input"
 
 # URLs da API
 LOGIN_URL = "https://avia.unipix.com.br/#/login"
@@ -902,4 +902,5 @@ def main():
         print(f"💥 ERRO CRÍTICO: {e}")
 
 if __name__ == "__main__":
+
     main()
