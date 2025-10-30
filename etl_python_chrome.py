@@ -21,9 +21,9 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # =============================================================================
 # CONFIGURAÇÕES GLOBAIS 
 # =============================================================================
-UNIPIX_USUARIO = "marlon.carvalho@mds.gov.br"
-UNIPIX_SENHA = "Mds@2025"
-DOWNLOAD_FOLDER = r"C:\Users\marlon.carvalho\Desktop\aprendizado\data\input"
+UNIPIX_USUARIO = "xxxxxxxxxx"
+UNIPIX_SENHA = "xxxxxxx"
+DOWNLOAD_FOLDER = r"C:\Users\xxxxxxxx\Desktop\aprendizado\data\input"
 
 # =============================================================================
 # CONFIGURAÇÕES
@@ -1619,4 +1619,5 @@ def main():
         print(f"💥 ERRO CRÍTICO: {e}")
 
 if __name__ == "__main__":
+
     main()
